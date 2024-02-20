@@ -1,0 +1,1 @@
+-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" -o "spi0driver.o" --omf_browse "spi0driver.crf" --depend "spi0driver.d" "spi0driver.c"

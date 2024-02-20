@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "adcmcp3204.o" "lcddriver.o" "main.o" "spi0driver.o" "timer.o" "uart0driver.o" --strict --scatter "spiProject21.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\spiProject21.map" -o "spiProject21.axf"
